@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>xamarin-android-d8-build</id>
+    <version>0.1.2</version>
+    <authors>Atsushi Eno</authors>
+    <owners>Atsushi Eno</owners>
+    <title>D8 dex compiler support in Xamarin.Android application (d15-5 or later)</title>
+    <licenseUrl>https://github.com/atsushieno/xamarin-android-d8-build/tree/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/atsushieno/xamarin-android-d8-build</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enable d8 dex compiler for your Xamarin.Android application</description>
+    <releaseNotes>See github commits, there is not a lot.</releaseNotes>
+    <copyright>Copyright (C) Google Inc.</copyright>
+    <tags>Xamarin Android D8 Dex</tags>
+  </metadata>
+  <files>
+    <file src="xamarin-android-d8-build.props" target="build" />
+    <file src="d8.jar" target="build" />
+    <file src="README.md" />
+    <file src="LICENSE" />
+  </files>
+</package>
