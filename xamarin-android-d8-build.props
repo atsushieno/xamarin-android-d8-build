@@ -1,8 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <DesugarWithR8 Condition="'$(DesugarWithR8)' == ''">false</DesugarWithR8>
         <DxJarPath>$(MSBuildThisFileDirectory)d8.jar</DxJarPath>
-        <DxJarPath Condition="$(DesugarWithR8) == True">$(MSBuildThisFileDirectory)r8.jar</DxJarPath>
         <DxExtraArguments>--debug</DxExtraArguments>
     </PropertyGroup>
 </Project>
